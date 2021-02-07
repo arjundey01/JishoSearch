@@ -1,0 +1,1147 @@
+div {
+    font-family: Helvetica;
+}
+
+#scroll-jp {
+    display: none;
+    height: 2px;
+    width: calc(100% - 15px);
+    margin: 5px;
+    position: relative;
+    border-radius: 2.5px;
+    background: #bbb;
+}
+
+#scroll-cursor {
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 1px 1px 5px #555;
+    position: absolute;
+    top: -4.5px;
+}
+
+#box-jp {
+    font-size: 12px;
+    display: none;
+    position: absolute;
+    width: 575px;
+    height: auto;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 6px #555;
+    z-index: 1;
+}
+
+#primary {
+    padding: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table
+}
+
+.clearfix:after {
+    clear: both
+}
+
+.row:before,
+.page:before,
+.row:after,
+.page:after {
+    content: " ";
+    display: table
+}
+
+.row:after,
+.page:after {
+    clear: both
+}
+
+.row.collapse>.column,
+.collapse.page>.column,
+.row.collapse>.columns,
+.collapse.page>.columns {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.row.collapse .row,
+.collapse.page .row,
+.row.collapse .page,
+.collapse.page .page {
+    margin-left: 0;
+    margin-right: 0
+}
+
+.row .row,
+.page .row,
+.row .page,
+.page .page {
+    max-width: none;
+    width: auto
+}
+
+.row .row:before,
+.page .row:before,
+.row .page:before,
+.page .page:before,
+.row .row:after,
+.page .row:after,
+.row .page:after,
+.page .page:after {
+    content: " ";
+    display: table
+}
+
+.row .row:after,
+.page .row:after,
+.row .page:after,
+.page .page:after {
+    clear: both
+}
+
+.row .row.collapse,
+.page .row.collapse,
+.row .collapse.page,
+.page .collapse.page {
+    margin: 0;
+    max-width: none;
+    width: auto
+}
+
+.row .row.collapse:before,
+.page .row.collapse:before,
+.row .collapse.page:before,
+.page .collapse.page:before,
+.row .row.collapse:after,
+.page .row.collapse:after,
+.row .collapse.page:after,
+.page .collapse.page:after {
+    content: " ";
+    display: table
+}
+
+.row .row.collapse:after,
+.page .row.collapse:after,
+.row .collapse.page:after,
+.page .collapse.page:after {
+    clear: both
+}
+
+.columns {
+    width: 100%;
+}
+
+.success:hover,
+.success:focus,
+.button.success:hover,
+.button.success:focus {
+    background-color: #368a55
+}
+
+.success:hover,
+.success:focus,
+.button.success:hover,
+.button.success:focus {
+    color: #FFFFFF
+}
+
+.success:hover,
+.success:focus,
+.button.disabled.success:hover,
+.button.disabled.success:focus,
+.button[disabled].success:hover,
+.button[disabled].success:focus {
+    background-color: #368a55
+}
+
+.success:hover,
+.success:focus,
+.button.disabled.success:hover,
+.button.disabled.success:focus,
+.button[disabled].success:hover,
+.button[disabled].success:focus {
+    color: #FFFFFF
+}
+
+.success:hover,
+.success:focus,
+.button.disabled.success:hover,
+.button.disabled.success:focus,
+.button[disabled].success:hover,
+.button[disabled].success:focus {
+    background-color: #43AC6A
+}
+
+.f-dropdown {
+    display: none;
+    left: -9999px;
+    list-style: none;
+    margin-left: 0;
+    position: absolute;
+    background: #FFFFFF;
+    border: solid 1px #cccccc;
+    font-size: 0.875rem;
+    height: auto;
+    max-height: none;
+    width: 100%;
+    z-index: 89;
+    margin-top: 2px;
+    max-width: 200px
+}
+
+.f-dropdown.open {
+    display: block
+}
+
+.f-dropdown:before {
+    border: inset 6px;
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    border-color: transparent transparent #FFFFFF transparent;
+    border-bottom-style: solid;
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    z-index: 89
+}
+
+.f-dropdown:after {
+    border: inset 7px;
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    border-color: transparent transparent #cccccc transparent;
+    border-bottom-style: solid;
+    position: absolute;
+    top: -14px;
+    left: 9px;
+    z-index: 88
+}
+
+.f-dropdown.right:before {
+    left: auto;
+    right: 10px
+}
+
+.f-dropdown.right:after {
+    left: auto;
+    right: 9px
+}
+
+.f-dropdown.drop-right {
+    display: none;
+    left: -9999px;
+    list-style: none;
+    margin-left: 0;
+    position: absolute;
+    background: #FFFFFF;
+    border: solid 1px #cccccc;
+    font-size: 0.875rem;
+    height: auto;
+    max-height: none;
+    width: 100%;
+    z-index: 89;
+    margin-top: 0;
+    margin-left: 2px;
+    max-width: 200px
+}
+
+.f-dropdown.drop-right.open {
+    display: block
+}
+
+.f-dropdown.drop-right>*:first-child {
+    margin-top: 0
+}
+
+.f-dropdown.drop-right>*:last-child {
+    margin-bottom: 0
+}
+
+.f-dropdown.drop-right:before {
+    border: inset 6px;
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    border-color: transparent #FFFFFF transparent transparent;
+    border-right-style: solid;
+    position: absolute;
+    top: 10px;
+    left: -12px;
+    z-index: 89
+}
+
+.f-dropdown.drop-right:after {
+    border: inset 7px;
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    border-color: transparent #cccccc transparent transparent;
+    border-right-style: solid;
+    position: absolute;
+    top: 9px;
+    left: -14px;
+    z-index: 88
+}
+
+.f-dropdown.drop-left {
+    display: none;
+    left: -9999px;
+    list-style: none;
+    margin-left: 0;
+    position: absolute;
+    background: #FFFFFF;
+    border: solid 1px #cccccc;
+    font-size: 0.875rem;
+    height: auto;
+    max-height: none;
+    width: 100%;
+    z-index: 89;
+    margin-top: 0;
+    margin-left: -2px;
+    max-width: 200px
+}
+
+.f-dropdown.drop-left.open {
+    display: block
+}
+
+.f-dropdown.drop-left>*:first-child {
+    margin-top: 0
+}
+
+.f-dropdown.drop-left>*:last-child {
+    margin-bottom: 0
+}
+
+.f-dropdown.drop-left:before {
+    border: inset 6px;
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    border-color: transparent transparent transparent #FFFFFF;
+    border-left-style: solid;
+    position: absolute;
+    top: 10px;
+    right: -12px;
+    left: auto;
+    z-index: 89
+}
+
+.f-dropdown.drop-left:after {
+    border: inset 7px;
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    border-color: transparent transparent transparent #cccccc;
+    border-left-style: solid;
+    position: absolute;
+    top: 9px;
+    right: -14px;
+    left: auto;
+    z-index: 88
+}
+
+.f-dropdown.drop-top {
+    display: none;
+    left: -9999px;
+    list-style: none;
+    margin-left: 0;
+    position: absolute;
+    background: #FFFFFF;
+    border: solid 1px #cccccc;
+    font-size: 0.875rem;
+    height: auto;
+    max-height: none;
+    width: 100%;
+    z-index: 89;
+    margin-left: 0;
+    margin-top: -2px;
+    max-width: 200px
+}
+
+.f-dropdown.drop-top.open {
+    display: block
+}
+
+.f-dropdown.drop-top>*:first-child {
+    margin-top: 0
+}
+
+.f-dropdown.drop-top>*:last-child {
+    margin-bottom: 0
+}
+
+.f-dropdown.drop-top:before {
+    border: inset 6px;
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    border-color: #FFFFFF transparent transparent transparent;
+    border-top-style: solid;
+    bottom: -12px;
+    position: absolute;
+    top: auto;
+    left: 10px;
+    right: auto;
+    z-index: 89
+}
+
+.f-dropdown.drop-top:after {
+    border: inset 7px;
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    border-color: #cccccc transparent transparent transparent;
+    border-top-style: solid;
+    bottom: -14px;
+    position: absolute;
+    top: auto;
+    left: 9px;
+    right: auto;
+    z-index: 88
+}
+
+.f-dropdown li {
+    cursor: pointer;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    margin: 0
+}
+
+.f-dropdown li:hover,
+.f-dropdown li:focus {
+    background: #EEEEEE
+}
+
+.f-dropdown li a {
+    display: block;
+    padding: 0.5rem;
+    color: #555555
+}
+
+.f-dropdown.content {
+    display: none;
+    left: -9999px;
+    list-style: none;
+    margin-left: 0;
+    position: absolute;
+    background: #FFFFFF;
+    border: solid 1px #cccccc;
+    font-size: 0.875rem;
+    height: auto;
+    max-height: none;
+    padding: 1.25rem;
+    width: 100%;
+    z-index: 89;
+    max-width: 200px
+}
+
+.f-dropdown.content.open {
+    display: block
+}
+
+.f-dropdown.content>*:first-child {
+    margin-top: 0
+}
+
+.f-dropdown.content>*:last-child {
+    margin-bottom: 0
+}
+
+.f-dropdown.radius {
+    border-radius: 3px
+}
+
+.f-dropdown.tiny {
+    max-width: 200px
+}
+
+.f-dropdown.small {
+    max-width: 300px
+}
+
+.f-dropdown.medium {
+    max-width: 500px
+}
+
+.f-dropdown.large {
+    max-width: 800px
+}
+
+.f-dropdown.mega {
+    width: 100% !important;
+    max-width: 100% !important
+}
+
+.f-dropdown.mega.open {
+    left: 0 !important
+}
+
+.row .row.collapse,
+form .page .row.collapse,
+.row .collapse.page,
+form .page .collapse.page {
+    margin: 0
+}
+
+.row .row.collapse .column,
+form .page .row.collapse .column,
+.row .collapse.page .column,
+form .page .collapse.page .column,
+.row .row.collapse .columns,
+form .page .row.collapse .columns,
+.row .collapse.page .columns,
+form .page .collapse.page .columns {
+    padding: 0
+}
+
+.row .row.collapse input,
+form .page .row.collapse input,
+.row .collapse.page input,
+form .page .collapse.page input {
+    -webkit-border-bottom-right-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0
+}
+
+.row input.column,
+form .page input.column,
+.row input.columns,
+form .page input.columns,
+.row textarea.column,
+form .page textarea.column,
+.row textarea.columns,
+form .page textarea.columns {
+    padding-left: 0.5rem
+}
+
+.row .prefix-radius.row.collapse input,
+form .page .prefix-radius.row.collapse input,
+.row .prefix-radius.collapse.page input,
+form .page .prefix-radius.collapse.page input,
+.row .prefix-radius.row.collapse textarea,
+form .page .prefix-radius.row.collapse textarea,
+.row .prefix-radius.collapse.page textarea,
+form .page .prefix-radius.collapse.page textarea,
+.row .prefix-radius.row.collapse select,
+form .page .prefix-radius.row.collapse select,
+.row .prefix-radius.collapse.page select,
+form .page .prefix-radius.collapse.page select,
+.row .prefix-radius.row.collapse button,
+form .page .prefix-radius.row.collapse button,
+.row .prefix-radius.collapse.page button,
+form .page .prefix-radius.collapse.page button {
+    border-radius: 0;
+    -webkit-border-bottom-right-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px
+}
+
+.row .prefix-radius.row.collapse .prefix,
+form .page .prefix-radius.row.collapse .prefix,
+.row .prefix-radius.collapse.page .prefix,
+form .page .prefix-radius.collapse.page .prefix {
+    border-radius: 0;
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px
+}
+
+.row .postfix-radius.row.collapse input,
+form .page .postfix-radius.row.collapse input,
+.row .postfix-radius.collapse.page input,
+form .page .postfix-radius.collapse.page input,
+.row .postfix-radius.row.collapse textarea,
+form .page .postfix-radius.row.collapse textarea,
+.row .postfix-radius.collapse.page textarea,
+form .page .postfix-radius.collapse.page textarea,
+.row .postfix-radius.row.collapse select,
+form .page .postfix-radius.row.collapse select,
+.row .postfix-radius.collapse.page select,
+form .page .postfix-radius.collapse.page select,
+.row .postfix-radius.row.collapse button,
+form .page .postfix-radius.row.collapse button,
+.row .postfix-radius.collapse.page button,
+form .page .postfix-radius.collapse.page button {
+    border-radius: 0;
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px
+}
+
+.row .postfix-radius.row.collapse .postfix,
+form .page .postfix-radius.row.collapse .postfix,
+.row .postfix-radius.collapse.page .postfix,
+form .page .postfix-radius.collapse.page .postfix {
+    border-radius: 0;
+    -webkit-border-bottom-right-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px
+}
+
+.row .prefix-round.row.collapse input,
+form .page .prefix-round.row.collapse input,
+.row .prefix-round.collapse.page input,
+form .page .prefix-round.collapse.page input,
+.row .prefix-round.row.collapse textarea,
+form .page .prefix-round.row.collapse textarea,
+.row .prefix-round.collapse.page textarea,
+form .page .prefix-round.collapse.page textarea,
+.row .prefix-round.row.collapse select,
+form .page .prefix-round.row.collapse select,
+.row .prefix-round.collapse.page select,
+form .page .prefix-round.collapse.page select,
+.row .prefix-round.row.collapse button,
+form .page .prefix-round.row.collapse button,
+.row .prefix-round.collapse.page button,
+form .page .prefix-round.collapse.page button {
+    border-radius: 0;
+    -webkit-border-bottom-right-radius: 1000px;
+    -webkit-border-top-right-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+    border-top-right-radius: 1000px
+}
+
+.row .prefix-round.row.collapse .prefix,
+form .page .prefix-round.row.collapse .prefix,
+.row .prefix-round.collapse.page .prefix,
+form .page .prefix-round.collapse.page .prefix {
+    border-radius: 0;
+    -webkit-border-bottom-left-radius: 1000px;
+    -webkit-border-top-left-radius: 1000px;
+    border-bottom-left-radius: 1000px;
+    border-top-left-radius: 1000px
+}
+
+.row .postfix-round.row.collapse input,
+form .page .postfix-round.row.collapse input,
+.row .postfix-round.collapse.page input,
+form .page .postfix-round.collapse.page input,
+.row .postfix-round.row.collapse textarea,
+form .page .postfix-round.row.collapse textarea,
+.row .postfix-round.collapse.page textarea,
+form .page .postfix-round.collapse.page textarea,
+.row .postfix-round.row.collapse select,
+form .page .postfix-round.row.collapse select,
+.row .postfix-round.collapse.page select,
+form .page .postfix-round.collapse.page select,
+.row .postfix-round.row.collapse button,
+form .page .postfix-round.row.collapse button,
+.row .postfix-round.collapse.page button,
+form .page .postfix-round.collapse.page button {
+    border-radius: 0;
+    -webkit-border-bottom-left-radius: 1000px;
+    -webkit-border-top-left-radius: 1000px;
+    border-bottom-left-radius: 1000px;
+    border-top-left-radius: 1000px
+}
+
+.row .postfix-round.row.collapse .postfix,
+form .page .postfix-round.row.collapse .postfix,
+.row .postfix-round.collapse.page .postfix,
+form .page .postfix-round.collapse.page .postfix {
+    border-radius: 0;
+    -webkit-border-bottom-right-radius: 1000px;
+    -webkit-border-top-right-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+    border-top-right-radius: 1000px
+}
+
+.inline-list {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 1.0625rem;
+    margin-left: -1.375rem;
+    margin-right: 0;
+    overflow: hidden;
+    padding: 0
+}
+
+.label {
+    display: inline-block;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Source Han Sans", "源ノ角ゴシック", "Hiragino Sans", "HiraKakuProN-W3", "Hiragino Kaku Gothic ProN W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "Noto Sans", "Noto Sans CJK JP", "メイリオ", Meiryo, "游ゴシック", YuGothic, "ＭＳ Ｐゴシック", "MS PGothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
+    font-weight: normal;
+    line-height: 1;
+    margin-bottom: auto;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    padding: 0.25rem 0.5rem 0.25rem;
+    font-size: 0.6875rem;
+    background-color: #e8e8e8;
+    color: #333333
+}
+
+.label.radius {
+    border-radius: 3px
+}
+
+.label.round {
+    border-radius: 1000px
+}
+
+.label.alert {
+    background-color: #f04124;
+    color: #FFFFFF
+}
+
+.label.warning {
+    background-color: #f08a24;
+    color: #FFFFFF
+}
+
+.label.success {
+    background-color: #43AC6A;
+    color: #FFFFFF
+}
+
+.label.secondary {
+    background-color: #e7e7e7;
+    color: #333333
+}
+
+.label.info {
+    background-color: #a0d3e8;
+    color: #333333
+}
+
+.concept_light {
+    padding: 0;
+    margin: 0 0 20px 0;
+    border-bottom: 1px solid #eee
+}
+
+.concept_light-wrapper {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 100%;
+    float: left
+}
+
+.concept_light-wrapper.concept_light-long_representation {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    width: 100%;
+    float: left
+}
+
+.concept_light-readings {
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding-left: 0
+}
+
+.concept_light-readings .concept_light-representation {
+    display: block;
+    margin-bottom: 10px
+}
+
+.concept_light-readings .concept_light-representation:first-child {
+    font-size: 1.3em
+}
+
+.concept_light-readings .concept_light-representation .text {
+    display: block;
+    line-height: 1.1
+}
+
+.concept_light-meanings {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    padding: 0
+}
+
+.concept_light-meanings .meaning-tags {
+    color: #888;
+    font-size: 12px;
+    margin-top: 10px
+}
+
+.concept_light-meanings .meanings-wrapper {
+    margin: 0
+}
+
+.concept_light-meanings .meaning-definition-section_divider {
+    color: #999;
+    line-height: 30px;
+    margin-right: 5px;
+    position: relative;
+    height: 100%
+}
+
+.concept_light-meanings .meaning-definition.meaning-representation_notes {
+    font-size: 14px
+}
+
+.concept_light-meanings .meaning-meaning {
+    font-size: 19px
+}
+
+.concept_light-meanings .meaning-abstract {
+    font-size: 14px;
+    color: #666;
+    margin-left: 8px
+}
+
+.concept_light-meanings .supplemental_info {
+    font-size: 14px;
+    color: #999;
+    margin-left: 8px
+}
+
+.concept_light-meanings .sentences {
+    width: 92%;
+    color: #666
+}
+
+.concept_light-meanings .sentences .sentence {
+    margin: 3px 0 5px 20px
+}
+
+.concept_light-meanings .sentences .japanese li {
+    font-size: 14px;
+    line-height: 1
+}
+
+.concept_light-meanings .sentences .japanese li .furigana {
+    font-size: 10px
+}
+
+.concept_light-meanings .sentences .english {
+    font-family: "Helvetica Neue", Helvetica, Arial
+}
+
+.concept_light-status {
+    margin-bottom: 10px
+}
+
+.concept_light-status .concept_light-tag.concept_light-common {
+    background: #8abc83
+}
+
+.concept_light-status .concept_light-tag {
+    width: 100px;
+    clear: right;
+    margin: 4px 0 8px 0;
+    padding: 2px 5px 3px 5px;
+    font-size: 10px;
+    -webkit-font-smoothing: antialiased;
+    background-color: #909dc0;
+    border-radius: 3px;
+    text-transform: lowercase;
+    color: #fff;
+    font-weight: bold
+}
+
+.concept_light-status .concept_light-tag a {
+    color: #fff
+}
+
+.concept_light-status .concept_light-status_link {
+    display: block;
+    max-width: 100px;
+    font-size: 14px;
+    margin: 4px 0 8px 0;
+    clear: both
+}
+
+.concept_light-status .f-dropdown {
+    width: 300px
+}
+
+.light-details_link {
+    display: block;
+    margin-left: calc(100% - 57px);
+    font-size: 12px;
+    padding: 3px 3px 2px 3px;
+    opacity: 0.3
+}
+
+.concept_light:hover .light-details_link,
+.sentence:hover .light-details_link {
+    opacity: 1
+}
+
+.kanji .character,
+.kanji_light .character {
+    font-family: "Source Han Sans", "源ノ角ゴシック", "Hiragino Sans", "HiraKakuProN-W3", "Hiragino Kaku Gothic ProN W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "Noto Sans", "Noto Sans CJK JP", "メイリオ", Meiryo, "游ゴシック", YuGothic, "ＭＳ Ｐゴシック", "MS PGothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
+    font-weight: normal;
+    line-height: 1;
+    text-decoration: none
+}
+
+.kanji .character:hover,
+.kanji_light .character:hover {
+    font-family: "HiraMinProN-W3", "Hiragino Mincho ProN W3", "Hiragino Mincho ProN", "ヒラギノ明朝 ProN W3", "游明朝", YuMincho, "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", "MS Mincho", serif
+}
+
+.kanji h2 {
+    margin: 0 0 3px 0;
+    font-size: 20px;
+    font-weight: bold
+}
+
+.kanji.details {
+    margin-bottom: 80px
+}
+
+.kanji.details .character {
+    font-size: 100px;
+    text-align: left;
+    text-decoration: none
+}
+
+.kanji.details td {
+    padding: 0 4px
+}
+
+.kanji-details__main-meanings {
+    font-size: 16px;
+    line-height: 1.3
+}
+
+.kanji-details__main-readings-list {
+    font-size: 16px
+}
+
+.kanji-details__main-readings-list a {
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    color: inherit
+}
+
+.dictionary_entry {
+    margin: 0
+}
+
+.dictionary_entry dt {
+    display: inline
+}
+
+.dictionary_entry dd {
+    display: inline
+}
+
+.row.kanji-details--section,
+.kanji-details--section.page {
+    margin-bottom: 15px
+}
+
+.kanji .compounds .dictionary_entry dt {
+    display: block;
+    float: left
+}
+
+.kanji .compounds .dictionary_entry dd {
+    overflow: hidden
+}
+
+.kanji .compounds table {
+    font-size: 18px
+}
+
+.kanji .compounds td {
+    vertical-align: top;
+    padding: 5px 8px
+}
+
+.kanji .compounds .text {
+    font-size: 20px;
+    min-width: 5em
+}
+
+.kanji .compounds .kana {
+    min-width: 6.2em;
+    line-height: 1.4
+}
+
+.kanji .compounds .show_more {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal
+}
+
+.kanji .main_radical {
+    font-size: 22px
+}
+
+.kanji .radical_meaning {
+    margin-bottom: 15px
+}
+
+.kanji_stats {
+    margin: 0
+}
+
+.kanji_stats .stat {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 2px;
+    border-radius: 3px
+}
+
+.grade .stat {
+    background-color: #EEDADF
+}
+
+.jlpt .stat {
+    background-color: #D9EBDC
+}
+
+.frequency .stat {
+    background-color: #F1E5D6
+}
+
+.zero-padding {
+    padding: 0 !important
+}
+
+.furigana {
+    display: block;
+    font-size: 0.55em;
+    color: #000;
+    margin-right: 2px;
+    height: 1em;
+    padding-left: 4px
+}
+
+.sentences {
+    list-style: none;
+    margin-left: 0
+}
+
+.sentences ul {
+    margin: 0
+}
+
+.sentences .english {
+    margin: 0;
+    font-size: 18px
+}
+
+.sentences ul.japanese li {
+    display: inline-block;
+    font-size: 18px
+}
+
+.sentences .japanese .furigana {
+    display: block;
+    font-size: 12px
+}
+
+.sentence {
+    padding: 0
+}
+
+.stroke_order_diagram--outer_container {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden
+}
+
+.stroke_order_diagram--guide_line {
+    fill: none;
+    stroke: #ddd;
+    stroke-width: 2;
+    stroke-linecap: square;
+    stroke-linejoin: square;
+    stroke-dasharray: 5, 5
+}
+
+.stroke_order_diagram--bounding_box {
+    fill: none;
+    stroke: #ddd;
+    stroke-width: 2;
+    stroke-linecap: square;
+    stroke-linejoin: square
+}
+
+.stroke_order_diagram--current_path {
+    fill: none;
+    stroke: #000;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round
+}
+
+.stroke_order_diagram--existing_path {
+    fill: none;
+    stroke: #aaa;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round
+}
+
+.stroke_order_diagram--path_start {
+    fill: rgba(255, 0, 0, 0.7);
+    stroke: none
+}
+
+.japanese_gothic {
+    font-family: "Source Han Sans", "源ノ角ゴシック", "Hiragino Sans", "HiraKakuProN-W3", "Hiragino Kaku Gothic ProN W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "Noto Sans", "Noto Sans CJK JP", "メイリオ", Meiryo, "游ゴシック", YuGothic, "ＭＳ Ｐゴシック", "MS PGothic", "ＭＳ ゴシック", "MS Gothic", sans-serif
+}
+
+.sentence .inline_copyright {
+    float: right;
+    font-size: 10px;
+    padding-right: 5px
+}
+
+.sentence .inline_copyright a {
+    color: #bbb;
+    text-decoration: underline
+}
+
+.furigana.inflector-furigana {
+    font-size: 80%
+}
+
+.furigana.inflector-furigana span {
+    min-width: 0
+}
+
+.furigana {
+    display: block;
+    font-size: 45%;
+    min-height: 1.15em
+}
+
+.furigana span {
+    display: inline-block;
+    text-align: center;
+    min-width: 2em;
+    line-height: 1.15
+}
+
+.furigana .kanji {
+    min-width: 2.25em
+}
+
+.furigana .kanji-4-up,
+.furigana .kanji-5-up {
+    letter-spacing: -0.05em
+}
